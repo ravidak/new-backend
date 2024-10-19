@@ -1,10 +1,11 @@
 {
   "name": "major_project",
   "version": "1.0.0",
-  "description": "a bcakend at major project -youtube",
+  "description": "a backend at major project -youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "repository": {
 
@@ -16,5 +17,8 @@
     "major_project"
   ],
   "author": "RAVIRANJAN",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "3.1.7"
+  }
 }
